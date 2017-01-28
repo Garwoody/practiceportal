@@ -105,7 +105,7 @@ body{
 }
 
 .instrument-links:hover{
-	background-color: #46328c;
+	background-color: #3B33C7;
 	color: #ffffff;
 	text-decoration: none;
 	letter-spacing: .05em;
@@ -113,11 +113,11 @@ body{
 }
 
 .instrument-links:focus{
-	background-color: #46328c;
+	background-color: #3B33C7;
 	letter-spacing: .05em;
 	color: #ffffff;
 	text-decoration: none;
-	border-bottom: 1px solid #46328c;
+	border-bottom: 1px solid #3B33C7;
 }
 
 .left-header, .right-header{
@@ -156,7 +156,7 @@ body{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-	background-color: #46328c;
+	background-color: #3B33C7;
 	color: #ffffff;
 	height: 2em;
 	align-items: center;
@@ -229,13 +229,13 @@ body{
 }
 
 .about-text a:hover{
-	color: #46328c;
+	color: #3B33C7;
 	text-decoration: none;
 }
 
 
 h3{
-	color: #46328c;
+	color: #3B33C7;
 	font-family: 'CooperHewittBook';
 	font-size: 2em;
 	margin: 0;
@@ -303,7 +303,7 @@ h2{
 
 .overlay_text{
 	position: absolute;
-	background-color: #46328c;
+	background-color: #3B33C7;
 	color: #fff;
 	font-size: .7em;
 	padding: .5em;
@@ -313,7 +313,7 @@ h2{
 }
 
 .videoHeaders{
-	background-color: #46328c;
+	background-color: #3B33C7;
 	color: #fff;
 	font-size: 1em;
 	padding: .5em;
@@ -332,7 +332,7 @@ h2{
     background-color: #ebebeb;
 }
 .loading{
-	color: #46328c;
+	color: #3B33C7;
 	font-family: 'CooperHewittBook';
 	text-decoration: none;
 	padding-top: 1em;
@@ -359,10 +359,10 @@ h2{
 
 .button{
 	color: #fff;
-	background-color: #46328c;
+	background-color: #3B33C7;
 	padding: 1em;
 	text-decoration: none;
-	border: 2px solid #46328c;
+	border: 2px solid #3B33C7;
 	text-align: center;
 	letter-spacing: .07em;
 	font-family: 'CooperHewittBold';
@@ -371,13 +371,13 @@ h2{
 }
 
 .button:hover{
-	border: 2px solid #46328c;
-	color: #46328c;
+	border: 2px solid #3B33C7;
+	color: #3B33C7;
 	background-color: #fff;
 }
 
 .video-button{
-	color: #46328c;
+	color: #3B33C7;
 	background-color: #fff;
 	padding: 1em;
 	text-decoration: none;
@@ -392,7 +392,7 @@ h2{
 .video-button:hover{
 	border: 2px solid #fff;
 	color: #fff;
-	background-color: #46328c;
+	background-color: #3B33C7;
 }
 
 .comment-container-outer{
@@ -437,7 +437,7 @@ h2{
 
 .comment-button:hover{
 	padding: 1em;
-	color: #46328c;
+	color: #3B33C7;
 	font-family: 'CooperHewittBold';
 	text-decoration: none;
 	text-align: center;
@@ -474,7 +474,7 @@ h2{
   display: -ms-flexbox;
   display: flex;
 	text-decoration: none;
-	background-color: #46328c;
+	background-color: #3B33C7;
 	max-width: 13em;
 	color: #fff;
 	right: 6em;
@@ -491,12 +491,12 @@ h2{
 
 .live-container a:hover{
 	text-decoration: none;
-	background-color: #46328c;
+	background-color: #3B33C7;
 	color: #d7d7d7;
 }
 
 .live-button{
-	background-color: #46328c;
+	background-color: #3B33C7;
 	color: #fff;
 	text-decoration: none;
 	padding-top: 1.2em;
@@ -507,7 +507,7 @@ h2{
 }
 
 .live-button:hover{
-	background-color: #46328c;
+	background-color: #3B33C7;
 	color: #d7d7d7;
 	text-decoration: none;
 }
@@ -532,7 +532,7 @@ h2{
 }
 
 .follow-container a:hover{
-	color: #46328c;
+	color: #3B33C7;
 }
 
 .icon{
@@ -542,7 +542,7 @@ h2{
 }
 
 h1{
-	color: #46328c;
+	color: #3B33C7;
 	margin: 0;
 	font-family: 'CooperHewittBold'; 
 	padding-bottom: .6em;
@@ -560,7 +560,7 @@ h1{
   display: -ms-flexbox;
   display: flex;
   justify-content: flex-start;
-  color: #46328c;
+  color: #3B33C7;
   font-family: 'CooperHewittBook'
 
 }
@@ -612,7 +612,7 @@ h1{
 }
 
 .left-half {
-  background-color: #46328c;
+  background-color: #3B33C7;
   flex: 1;
   padding: 1rem;
   text-align: center;
