@@ -28,14 +28,10 @@ For musicians, by musicians." />
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js">
     </script><!-- load angular -->
     <script src="//rawgithub.com/GoDisco/ngFacebook/master/ngFacebook.js"></script>
-    <script type="text/javascript" src="/javascripts/main.js"></script>
-
+    <script type="text/javascript" src="/javascripts/main.js"></script> <!--in main.js, create a function to login w/o FB-->
 </head>
 
 <body ng-controller="DemoCtrl">
-<h1>
-<?php echo "It works!"; ?>
-</h1>
 <div class="login-container" ng-show="!isLoggedIn">
     <div class="small-container">
     <h3>welcome to</h3>
@@ -44,7 +40,9 @@ For musicians, by musicians." />
               <br>
               For musicians, by musicians.
      <br>     
-      <a href="" ng-click = "login()" class="button">log in with facebook</a>
+      <a href="" ng-click = "login()" class="button">Log in with Facebook</a>
+      <a href="views/login.html" class="button">Log in to PP</a>
+      <a href="views/signup.html" class="button">Create a new profile</a>
   
   </div>
 </div>
