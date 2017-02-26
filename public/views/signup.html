@@ -85,3 +85,26 @@ For musicians, by musicians." />
 </body>
 </html>
 
+
+<?php 
+	$button = isset($_POST('submit'));
+
+	if($button){
+
+        mysql_connect("localhost","practiceportal","code4music");
+        mysql_select_db(users);
+		$sql = mysql_query("INSERT INTO users (username, password, ='$username' AND password='$password'");
+		$get2 = mysql_fetch_assoc($get);
+		$id = $get2['id'];
+		$num = mysql_num_rows($get);
+		if($num==1)
+		{
+			echo "This username already exists!";
+		}
+		else
+		{
+			echo "This username doesn't exist! Please sign up for an account."
+		}
+	}
+	
+?> 
