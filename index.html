@@ -28,6 +28,7 @@ For musicians, by musicians." />
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js">
     </script><!-- load angular -->
     <script src="//rawgithub.com/GoDisco/ngFacebook/master/ngFacebook.js"></script>
+    <script src="/javascripts/loginService.js"></script> 
     <script type="text/javascript" src="/javascripts/main.js"></script> <!--in main.js, create a function to login w/o FB-->
 </head>
 
@@ -40,10 +41,31 @@ For musicians, by musicians." />
               <br>
               For musicians, by musicians.
      <br>     
-      <a href="" ng-click = "login()" class="button">Log in with Facebook</a>
-      <a href="login.html" class="button">Log in to PP</a>
-      <a href="signup.html" class="button">Create a new profile</a>
+<<<<<<< HEAD
+      
+      <a href="" ng-click = "fblogin()" class="button">Log in with Facebook</a>
+      
+      <div class='loginForm'>
+       <form role="form" action="components/login-process.php" method="post" name="login">
+              <div class="form-group">
+                  <label for="inputUsernameEmail">Username or email</label>
+                  <input type="text" class="form-control" id="inputUsernameEmail" required ng-model="user.username">
+              </div>
+              <div class="form-group">
+                  <label for="inputPassword">Password</label>
+                  <input type="password" class="form-control" id="inputPassword" name="password" required ng-model='user.password'>
+              </div>
+              <button class = "btn btn-default" type="submit" data-style="zoom-in" value="Sign In" ng-click="login(user)"> Log In </button>
+          </form>
+      </div>
+      <a href="signup.php">New? Create profile</a>
+
+=======
+      <a href="" ng-click = "fblogin()" class="button">Log in with Facebook</a>
+      <a href="" ng-click = "altlogin()" class="button">Log in to PP</a>
+      <a href="views/signup.php" class="button">Create a new profile</a>
   
+>>>>>>> e9a10995da71e39bc426de8a43ba2b96b23961b5
   </div>
 </div>
 
