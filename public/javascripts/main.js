@@ -1,8 +1,13 @@
 angular.module('practicePortal', ['ngFacebook'])
 
+
 .config( function( $facebookProvider ) {
   $facebookProvider.setAppId('1875721405997329');
 })
+
+.config(['$routeProvider', function($routeProvider) {
+  $routeProvider.when('/login', {templateUrl: "index.html"})
+}])
 
 .run( function( $rootScope ) {
   // Load the facebook SDK asynchronously
@@ -193,14 +198,35 @@ var DemoCtrl = function ($scope, $facebook, $http, $window) {
     $scope.videoFeed = feed;
   }
 
-  $scope.login = function(){
+  $scope.fblogin = function(){
     $facebook.login().then(function(response){
       $scope.isLoggedIn = true;
       refresh();
     })
   }
 
+<<<<<<< HEAD
+  $scope.fblogout = function(){
+=======
+  $scope.altlogin = function(){
+    var data = $.param({
+      uName: $scope.firstName,
+      psw: $scope.psw
+    });
+    var config = {
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8;'
+      }
+    }
+    $http.post('views/login.php', data, config)
+            .success(function (data, status, headers, config){
+      $scope.isLoggedIn = true;
+      refresh();
+    })
+  }
+
   $scope.logout = function(){
+>>>>>>> e9a10995da71e39bc426de8a43ba2b96b23961b5
     $facebook.logout().then(function(res){
       $scope.isLoggedIn = false;
     })
